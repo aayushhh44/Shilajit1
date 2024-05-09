@@ -30,11 +30,11 @@ const StartPage = () => {
   BUY NOW!
 </button> */}
 
-{/* 
+
 <div className='absolute animate-bounce bottom-4 w-full flex justify-center items-center cursor-pointer' onClick={handleClick}>
   <p className=" text-center uppercase text-white">Scroll down to see more</p>
   <FaLongArrowAltDown className='text-white ml-2' />
-</div> */}
+</div>
 
 
        

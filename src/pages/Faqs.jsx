@@ -54,7 +54,7 @@ const Faqs = () => {
           onClick={() => toggleAnswer(index)}
         >
           <div className="flex justify-center items-center gap-4">
-            <p className="font-poppins font-medium">{faq.question}</p>
+            <p className="font-poppins text-center font-medium">{faq.question}</p>
             <FaAngleDown />
           </div>
           {showAnswers[index] && (

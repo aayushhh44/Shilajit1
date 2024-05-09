@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Reviews = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -40,7 +40,8 @@ const Reviews = () => {
           <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
             <div className="md:columns-2 lg:columns-3gap-8 space-y-8"> */}
         {isSmallScreen ? (
-          <Slider className="p-10" {...settings}>
+         <center>
+          <Slider className="mt-10 w-[320px]" {...settings}>
             <div className="aspect-auto p-8 border border-shadow rounded-3xl bg-[#f5f5f5] text-black dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
               <div className="flex gap-4">
                 <img
@@ -458,7 +459,9 @@ const Reviews = () => {
                 reprehenderit, veritatis harum et rerum.
               </p>
             </div>
+            
           </Slider>
+          </center>
         ) : (
           <div className="text-gray-600 dark:text-gray-300 pt-8" id="reviews">
             <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">

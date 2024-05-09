@@ -18,7 +18,7 @@ const StartPage = () => {
     <div className='h-full' id='main'>
       <Navbar /> 
       <img className='h-screen w-full object-cover bg-black' src="https://image5.sixthtone.com/image/5/67/220.gif" alt="" />
-      <div className='absolute top-0 left-0 w-full h-full bg-black opacity-60'></div> 
+      <div className='absolute top-0 left-0 w-full h-screen bg-black opacity-60'></div> 
       <div className='absolute top-1/4 inset-x-0 text-center'>
         <h1 className='font-oswald font-bold uppercase text-4xl md:text-6xl text-[#d89a35]'>Gurkha Shilajit</h1>
         <p className='text-white text-2xl font-poppins '>Boost your energy every day</p>
@@ -30,11 +30,11 @@ const StartPage = () => {
   BUY NOW!
 </button> */}
 
-
+{/* 
 <div className='absolute animate-bounce bottom-4 w-full flex justify-center items-center cursor-pointer' onClick={handleClick}>
   <p className=" text-center uppercase text-white">Scroll down to see more</p>
   <FaLongArrowAltDown className='text-white ml-2' />
-</div>
+</div> */}
 
 
        

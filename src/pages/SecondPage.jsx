@@ -6,8 +6,8 @@ import { FaLeaf } from "react-icons/fa6";
 const SecondPage = () => {
   return (
     <div className="h-full p-4" id="product">
-       <TawkMessengerReactUmd className='' propertyId="663c85cf9a809f19fb2eedf7" widgetId="1hte6ld0r"/>
-      <p className="animate-blink1 p-2 font-poppins sticky top-16 w-96 text-center mx-auto bg-green-600">1 to 3 days shipping all over the UK</p>
+       {/* <TawkMessengerReactUmd className='' propertyId="663c85cf9a809f19fb2eedf7" widgetId="1hte6ld0r"/> */}
+      {/* <p className="animate-blink1 p-2 font-poppins sticky top-16 w-96 text-center mx-auto bg-green-600">1 to 3 days shipping all over the UK</p> */}
       <div className="p-8 xl:p-28">
            
       <h2 className="text-center uppercase p-2 font-rubik text-gray-600 md:tex-2xl">

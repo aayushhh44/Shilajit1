@@ -26,7 +26,7 @@ const Certificates = () => {
       <div className='flex gap-4 w-full mt-4'>
       <img className='w-1/2 border-4 rounded-md border-red-800' src="/assets/copyright/3.jpg" alt="Kosher" />
         <img className='w-1/2 border-4 rounded-md border-red-800' src="/assets/copyright/4.jpg" alt="Halal" />
-      </div>
+      </div>    
     </div>
   )
 }

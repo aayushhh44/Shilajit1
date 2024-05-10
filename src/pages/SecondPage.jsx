@@ -19,7 +19,7 @@ const SecondPage = () => {
           straight from Nepal's heart to yours
         </h2>
 
-        <div className="flex flex-col md:flex-row justify-between items-center p-4">
+        <div className="flex flex-col xl:flex-row justify-between items-center p-4">
           <div>
             <h1 className="text-3xl md:text-5xl font-semibold">
               GURKHA SHILAJIT

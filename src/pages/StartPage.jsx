@@ -17,7 +17,7 @@ const StartPage = () => {
         alt=""
       />
       <div className="absolute top-0 left-0 w-full h-screen bg-black opacity-60"></div>
-      <div className="absolute top-1/4 inset-x-0 text-center">
+      <div className="absolute top-2/4 md:top1/4 inset-x-0 text-center">
         <h1 className="font-oswald font-bold uppercase text-4xl md:text-6xl text-[#d89a35]">
           Gurkha Shilajit
         </h1>

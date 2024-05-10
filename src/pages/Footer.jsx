@@ -25,10 +25,11 @@ const Footer = () => {
           Anamnagar-4, Kathmandu, Nepal
         </p>
       </div>
-
+      
       <div className="flex text-nowrap flex-row gap-1 sm:flex-col items-center mr-4 justify-center">
         <h3 className="text-xs text-nowrap uppercase mx-6 sm:mx-0">Quick Links</h3>
         <br />
+  
         <a
           href="#main"
           className="text-xs sm:text-sm cursor-pointer text-gray-400 hover:text-red-600"

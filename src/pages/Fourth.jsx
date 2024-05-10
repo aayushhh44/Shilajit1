@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fourth = () => {
   return (
-    <div className='p-6 my-8'>
+    <div className='p-6 my-0'>
         <p className="text-white mb-4 font-poppins sticky top-16 p-4 w-auto text-center mx-auto bg-green-600">Nepali product, made exclusively for the people of the UK! 🇬🇧</p>
         <h1 className='text-2xl md:text-3xl font-poppins mb-4'>Why Gurkha Shilajit?</h1>
 

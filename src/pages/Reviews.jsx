@@ -28,7 +28,7 @@ const Reviews = () => {
   }, []);
 
   return (
-    <div className="p-6" id="reviews">
+    <div className="p-6 -mt-8" id="reviews">
       <h1 className="text-2xl md:text-3xl font-poppins">Recent Reviews</h1>
       {/* {console.log(isSmallScreen)} */}
 

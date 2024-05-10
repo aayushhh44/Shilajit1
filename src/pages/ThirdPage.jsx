@@ -3,13 +3,13 @@ import React from "react";
 const ThirdPage = () => {
   return (
     <div className="h-full p-8 mt-4 z-0">
-      <div className="flex cursor-pointer flex-wrap gap-6 md:gap-8 lg:gap-6 justify-center xl:justify-between">
+      <div className="flex cursor-pointer flex-col sm:flex-row gap-6 md:gap-8 lg:gap-6 justify-center xl:justify-between">
         <div className="flex transform transition-transform duration-300 hover:scale-105 flex-col gap-4 justify-center bg-[#f5f5f5] p-4 rounded-md">
           <h4 className="text-center text-2xl font-poppins font-light">
             1 Bottle - 30 days Supply
           </h4>
           <img
-            className="m-2 w-72 md:w-96 "
+            className="m-2 mx-auto w-72 md:w-96 "
             src="/assets/1 shilajit.png"
             alt="Shilajit Image"
           />
@@ -36,7 +36,7 @@ const ThirdPage = () => {
             4 Bottle - 120 days Supply
           </h4>
           <img
-            className="m-2 w-72 md:w-96 "
+            className="m-2 mx-auto w-72 md:w-96 "
             src="/assets/4 shilajit.png"
             alt="Shilajit Image"
           />
@@ -63,7 +63,7 @@ const ThirdPage = () => {
             2 Bottle - 90 days Supply
           </h4>
           <img
-            className="m-2 w-72 md:w-96 "
+            className="m-2 mx-auto w-72 md:w-96 "
             src="/assets/2 shilajit.png"
             alt="Shilajit Image"
           />

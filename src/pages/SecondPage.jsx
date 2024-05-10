@@ -88,19 +88,19 @@ const SecondPage = () => {
 
         {/* Authorized */}
 
-        <div className="flex p-6 justify-center xl:gap-60 flex-wrap">
+        <div className="flex p-6 gap-2 justify-center xl:gap-60 flex-wrap">
           <img
-            className="w-32 object-contain"
+            className="w-16 sm:w-32 object-contain"
             src="https://t4.ftcdn.net/jpg/03/50/85/71/360_F_350857109_Nh168Z8p8LFQMIwy68CLmvxJxP1s2ZIF.jpg"
             alt=""
           />
           <img
-            className="w-32 object-contain"
+            className="w-16 sm:w-32 object-contain"
             src="https://www.pngkey.com/png/full/42-424511_organic-dietary-label-stamps-postage-stamp.png"
             alt=""
           />
           <img
-            className="w-32 object-contain"
+            className="w-16 sm:w-32 object-contain"
             src="https://t3.ftcdn.net/jpg/03/28/10/72/360_F_328107212_BRthwiB6IVH3uOMmW8zDyQJrM8SBQTAS.jpg"
             alt=""
           />

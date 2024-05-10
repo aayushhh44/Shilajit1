@@ -26,8 +26,8 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="flex flex-row gap-1 sm:flex-col items-center justify-center">
-        <h3 className="text-xs uppercase mx-6 sm:mx-0">Quick Links</h3>
+      <div className="flex text-nowrap flex-row gap-1 sm:flex-col items-center mr-4 justify-center">
+        <h3 className="text-xs text-nowrap uppercase mx-6 sm:mx-0">Quick Links</h3>
         <br />
         <a
           href="#main"

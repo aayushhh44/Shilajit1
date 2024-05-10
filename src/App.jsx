@@ -1,3 +1,4 @@
+import Certificates from "./pages/Certificates"
 import Faqs from "./pages/Faqs"
 import Footer from "./pages/Footer"
 import Fourth from "./pages/Fourth"
@@ -14,6 +15,7 @@ function App() {
 <StartPage />
 <SecondPage />
 <ThirdPage />
+<Certificates />
 <Fourth/>
 <Reviews />
 <Faqs/>
